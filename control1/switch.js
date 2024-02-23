@@ -20,6 +20,7 @@
 //      break;
 //     }
 
+/*
 let getStartUser ="9"
 let starInNumber = parseInt(getStartUser)
 
@@ -57,4 +58,10 @@ switch(starInNumber){
          break;
          
         }
+*/
+
+
+
+
+
 
