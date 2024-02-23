@@ -156,8 +156,8 @@ if( myGooleLogin || myGithubLogin){
 }
 
 
-let age = 19
-const willYougetDrivingLicense = false
+// let age = 19
+// const willYougetDrivingLicense = false
 // if( age => 18){
 //     console.log("you can drive the car");
 //     willYougetDrivingLicense = true
@@ -167,8 +167,12 @@ const willYougetDrivingLicense = false
 //     willYougetDrivingLicense = false
 // }
 
-(age >= 18) ? willYougetDrivingLicense = true : willYougetDrivingLicense = false
-const getDrivingLicense = age >= 18 ? "true part" : "false"
+
+let age = 19
+ let willYougetDrivingLicense = false
+
+age  ? willYougetDrivingLicense = true : willYougetDrivingLicense = false
+ const getDrivingLicense = age >= 18 ? "true part" : "false"
 
 
 let loading = false
